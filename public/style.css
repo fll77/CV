@@ -1,0 +1,145 @@
+:root {
+  --fg: #111;
+  --bg: #fff;
+  --muted: #6b7280;
+  --link: #2563eb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  color: var(--fg);
+  background: var(--bg);
+  line-height: 1.6;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/*Clase para modo oscuro*/
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+
+/* Botón modo oscuro arriba a la derecha */
+#toggleBtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.container {
+  width: min(100% - 2rem, 800px);
+  margin-inline: auto;
+  padding: 2rem 0;
+}
+
+h1, h2 {
+  margin: 0 0 0.5rem;
+}
+
+p {
+  margin: 0.5rem 0 1rem;
+}
+
+/*Avatar del menú*/
+
+#avatarMenu {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;       /* rodona */
+  object-fit: cover;        /* que no es deformi */
+  border: 3px solid var(--link);
+}
+
+.dark-mode #avatarMenu {
+  border-color: #90b4ff;
+}
+
+
+/* Menú */
+nav {
+  display: flex;
+  align-items: center;   /* alineació vertical de la foto i botons */
+  gap: 1rem;
+  justify-content: center; /* Centrar els botons */
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.navBtn {
+  padding: 10px 18px;
+  border: none;
+  background-color: #e5e7eb; /* gris suau */
+  color: #111;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.navBtn:hover {
+  background-color: #d1d5db; /* més fosc */
+  transform: translateY(-2px);
+}
+
+.navBtn.active {
+  background-color: var(--link);
+  color: white;
+}
+
+/* Títol menu*/
+#menuTitle {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+}
+
+.dark-mode #menuTitle {
+  color: white;
+}
+
+/* Seccions */
+
+.section {
+  display: none;
+}
+
+.section {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-left: 4px solid var(--link);
+  background: #f9fafb;
+  border-radius: 8px;
+}
+
+/* Dark mode per a seccions */
+.dark-mode .section {
+  background: #1f1f1f;
+  border-left-color: #90b4ff;
+}
+
+/* Enllaços */
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

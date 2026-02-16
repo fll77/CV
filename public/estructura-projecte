@@ -1,0 +1,17 @@
+curriculum-node/
+│
+├── server.js
+├── public/
+│   ├── index.html ------ curriculum.
+│   ├── style.css ------- disseny.
+│   └── main.js
+│
+├── package.json
+└── README.md --------explique: 
+                        -què és el projecte.
+                        -com executar-lo.
+                        -per a què serveix.
+
+#Node.js = et permet executar JavaScript fora del navegador.
+#Express = et permet crear fàcilment un servidor.
+#Express => és una llibreria (framework) de JavaScript que serveix per crear servidors web utilitzant Node.js.

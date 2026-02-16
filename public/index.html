@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ca">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>CV – Laura Limones Fusté</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <!--Botó darkMode-->
+      <button id="toggleBtn">🌙 Modo oscuro</button> 
+
+      <h2 id="menuTitle">Mi Perfil</h2>
+
+      <!--Menú-->
+      <nav>
+        <img id="avatarMenu" src="./perfil.jpeg" />
+        <div class="navBtns">
+          <button class="navBtn" data-section="personal">Personal</button>
+          <button class="navBtn" data-section="baloncesto">Baloncesto</button>
+          <button class="navBtn" data-section="ia">IA</button>
+          <button class="navBtn" data-section="projectes">Projectes</button>
+        </div>
+      </nav>
+      
+      <!--Secció Personal-->
+      <section id="personal" class="section">
+        <h1 id="nom">—</h1>
+        <p><strong>Email:</strong> <a id="email" href="#">—</a></p>
+        <p><strong>GitHub:</strong> <a id="gitHub" href="#">—</a></p>
+        <p><strong>LinkedIn:</strong> <a id="linkedIn" href="#">—</a></p>
+      </section>
+      <!--Secció Baloncesto-->
+      <section id="baloncesto" class="section">
+        <h1>Baloncesto</h1>
+      </section>
+      <!--Secció IA-->
+      <section id="ia" class="section">
+        <h1>IA</h1>
+      </section>
+      <!--Secció Projectes-->
+      <section id="projectes" class="section">
+        <h1>PROJECTES</h1>
+
+        <div class="projectes">
+        <h2>Servidor Web amb Node.js</h2>
+        <p>El meu primer projecte complet amb Node.js, Express i JavaScript.</p>
+
+      </section>
+    </main>
+    <!--Script principal-->
+    <script src="./main.js"></script>
+  </body>
+</html>

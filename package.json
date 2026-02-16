@@ -1,0 +1,21 @@
+{
+    "name": "curriculum-node",
+    "version": "1.0.0",
+    "description": "Currículum en un servidor web fer amb Node.js i Express.",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon --ext js,html,css --watch . server.js"
+    },
+    "author": "Laura Limones Fusté",
+    "license": "MIT",
+    "engines": {
+        "node": ">=18"
+    },
+    "dependencies": {
+        "express": "^4.22.1"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.11"
+    }
+}
