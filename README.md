@@ -2,3 +2,5 @@
 Este proyecto es un servidor web desarrollado con JavaScript utilizando Node.js y Express, que funciona como mi perfil personal en línea.
 
 La aplicación muestra información sobre mí.
+
+Mi web : https://llzzww7.github.io/CV/
