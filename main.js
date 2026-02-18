@@ -1,7 +1,7 @@
 // Carregar pergil des de el servidor.
 async function carregarPerfil() {
   try {
-    const res = await fetch('/api/profile');
+    const res = await fetch('./profile.json');
     if (!res.ok) throw new Error('No s’ha pogut carregar el perfil');
     const data = await res.json();
 
