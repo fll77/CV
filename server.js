@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 const profile = {
     nom: 'Laura Limones Fusté',
     email: 'lauralimonesfuste@gmail.com',
-    gitHub: 'https://github.com/Llzzww7',
+    gitHub: 'https://github.com/fll77',
     linkedIn:'https://www.linkedin.com/in/laura-limones-468b37362',
 };
 
